@@ -1,0 +1,47 @@
+h1{
+    font-size: 150px;
+
+}
+
+body{
+    background-color: darkcyan;
+    font-family:"PT Sans Narrow", sans-serif;
+    color: gainsboro;
+    padding-top: 90px;
+
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 99%;
+    text-align:right;
+    font-size:x-large;
+}
+
+ul{
+    background-color: darkgray;
+    padding:10px;
+    position:
+}
+
+li{
+    display: inline;
+
+}
+
+a{
+    color:darkcyan;
+}
+
+a:hover{
+    background-color: cornflowerblue;
+    padding: 9px;
+}
+
+main{
+    text-align: center;
+}
+
+p{
+    font-size:40px;
+}

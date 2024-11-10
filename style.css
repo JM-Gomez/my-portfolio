@@ -23,8 +23,8 @@ body{
 nav{
     position: fixed;
     top:10px;
-    width: 99%;
-    text-align:right;
+    width: 98%;
+    text-align:center;
     font-size:25px;
     background-color: darkgray;
     line-height: 2px;
@@ -45,6 +45,7 @@ ul.about{
 
 li{
     display: inline;
+    padding: 50px;
 
 }
 
@@ -72,8 +73,6 @@ p{
 }
 
 .wrapper{
-    padding-top:10px;
-    padding-bottom: 10px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding: 10px 60px;
+    
 }

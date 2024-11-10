@@ -1,6 +1,15 @@
 h1{
-    font-size: 150px;
+    font-size: 12vw;
+}
 
+h2{
+    font-size: 2vw;
+}
+
+.h22{
+    font-size: 30px;
+    text-decoration:underline overline;
+    text-decoration-thickness: 1.5px;    
 }
 
 body{
@@ -13,21 +22,35 @@ body{
 
 nav{
     position: fixed;
-    top: 0;
+    top:10px;
     width: 99%;
     text-align:right;
-    font-size:x-large;
+    font-size:25px;
+    background-color: darkgray;
+    line-height: 2px;
+    padding-right:20px;
+    
 }
 
 ul{
-    background-color: darkgray;
-    padding:10px;
-    position:relative
+    
+    position:relative;
+}
+
+ul.about{
+    position:relative;
+    font-style: italic;
+    
 }
 
 li{
     display: inline;
 
+}
+
+li.about{
+    padding: 6px;
+    
 }
 
 a{
@@ -44,5 +67,13 @@ main{
 }
 
 p{
-    font-size:40px;
+    font-size:25px;
+    padding-bottom: 80px;
+}
+
+.wrapper{
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
 }

@@ -21,7 +21,7 @@ body{
 
 
 nav{
-    position: fixed;
+    position: absolute;
     top:10px;
     width: 98%;
     text-align:center;
@@ -29,7 +29,6 @@ nav{
     background-color: darkgray;
     line-height: 2px;
     padding-right:20px;
-    
 }
 
 ul{
@@ -121,19 +120,35 @@ p{
 .gallery img{
     width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 
-@media only screen and (max-width: 700px) {
+@media screen and (max-width: 700px) {
     .project-page {
       width: 49.99999%;
       margin: 6px 0;
     }
   }
 
-  @media only screen and (max-width: 500px) {
+  @media screen and (max-width: 500px) {
     .project-page {
       width: 100%;
     }
+    nav li{
+        display: block;
+        padding: 15px;
+        padding-right: 30px;
+      }
+    main {
+        padding-top: 40%;
+    }
+    .wrapper {
+        padding-top: 50%;
+    }
+  }
+
+  @media screen and (max-width:500px) {
+    
   }
 
   .clearfix:after {

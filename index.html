@@ -4,6 +4,7 @@
     <link href="style.css" type="text/css" rel="stylesheet">
     
     <head>
+        <title>Juan Gomez</title>
         <style>
         @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
         </style>
@@ -12,12 +13,20 @@
     <body>
         <header>
             <nav>
-                <ul >
-                    <li >Home</li>
-                    <li> <a href="about.html">About</a></li>
-                    <li> <a href="projects.html">Projects</a></li>
-                    <li> <a href="contact.html">Contact</a></li>
-                </ul>
+                <input type="checkbox" name="" id="burgermenu">
+                <label for="burgermenu" class="menuicon">
+                    <i class="fas fa-bars"></i>
+                </label>
+                
+                <label id="overlay" for="burgermenu"></label>
+                <div class="navlinks">
+                
+                    <a>Home</a>
+                    <a href="about.html">About</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="contact.html">Contact</a>
+                
+                </div>
             </nav>
             
             

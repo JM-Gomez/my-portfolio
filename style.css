@@ -61,6 +61,7 @@ nav a:hover{
 
 li.about{
     padding: 6px;
+    font-size: 2.5vw;
 
     
 }
@@ -69,9 +70,9 @@ li.about{
     display: none;
 }
 .menuicon{
-    font-size: 30px;
+    font-size: 60px;
     cursor: pointer;
-    color: white;
+    color: darkcyan;
     display: none;
   }
 
@@ -91,7 +92,7 @@ main{
 }
 
 p{
-    font-size:25px;
+    font-size: 4vw;
     padding-bottom: 80px;
 }
 
@@ -159,6 +160,11 @@ p{
         height: auto;
         width: 100%;
         justify-content:flex-start;
+        box-shadow: -5px 0 5px darkcyan;
+        padding: 20px;
+        margin-top: 1px;
+        font-size: 4vw;
+        border-radius: 80px;
     }
 
     .menuicon{

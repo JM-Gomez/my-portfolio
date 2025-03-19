@@ -142,18 +142,19 @@ p{
         flex-direction: column;
         align-items: flex-start;
         position: fixed;
+        height: auto;
         top: 0;
         right: -100%;
-        width: 300px;
+        width: 250px;
         z-index: 10;
         background-color: darkgray;
         box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25);
         transition: 0.75s ease-out;
+        border-radius: 3px;
     }
 
     nav{
         height: auto;
-        
     }
 
     nav a{
@@ -162,7 +163,7 @@ p{
         justify-content:flex-start;
         box-shadow: -5px 0 5px darkcyan;
         padding: 20px;
-        margin-top: 1px;
+        margin-top: 2px;
         font-size: 4vw;
         border-radius: 80px;
     }

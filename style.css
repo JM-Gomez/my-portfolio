@@ -121,6 +121,7 @@ p{
     opacity:0;
     color: white;
     font-size: 20px;
+    border-radius: 10px;
 }
 
 .gallery:hover .description{
@@ -129,6 +130,7 @@ p{
 
 .gallery:hover{
     border: 1px solid darkgrey;
+    border-radius: 10px;
 }
 
 .gallery img{

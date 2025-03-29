@@ -76,11 +76,9 @@ li.about{
     display: none;
   }
 
-main{
+  main{
     text-align: center;
-}
-
-
+  }
 
 .project-page{
     text-align: center;
@@ -98,6 +96,7 @@ p{
 
 .wrapper{
     padding: 10px 60px;
+    text-align: center;
 
 }
 

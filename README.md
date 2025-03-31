@@ -75,7 +75,7 @@ after adding the below code to my html files:
 ```
 I then ran another report and the performance increased
 
-![Alt text](Images/readme/lighthousesupport2.png)
+![Alt text](images/readme/lighthousesupport2.png)
 
 
 ## `Acknowledgments`

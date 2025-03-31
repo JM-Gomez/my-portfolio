@@ -62,7 +62,7 @@ After running a lighthouse report, I identified some issues that needed to be fi
 
 Original report 
 
-![Alt text](Images/readme/lighthousesupport1.png)
+![Alt text](images/readme/lighthousesupport1.png)
 
 example issue was that code was missing the following 
 
@@ -75,7 +75,7 @@ after adding the below code to my html files:
 ```
 I then ran another report and the performance increased
 
-![Alt text](./Images/readme/lighthousesupport2.png)
+![Alt text](Images/readme/lighthousesupport2.png)
 
 
 ## `Acknowledgments`
